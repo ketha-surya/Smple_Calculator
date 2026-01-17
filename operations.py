@@ -17,4 +17,13 @@ def divide(a,b):
     
 def power(a, b):
     return a ** b
+
+def modulo(a,b):
+    if b==0:
+        return "ZeroDivisionError"
+    else:
+     return a%b
+
+
     
+
