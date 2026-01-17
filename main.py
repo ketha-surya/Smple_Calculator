@@ -1,6 +1,6 @@
 # main.py
 
-from operations import add, subtract, multiply, divide
+from operations import add, subtract, multiply, divide, power
 
 print("Simple Calculator")
 
@@ -11,3 +11,4 @@ print("Addition:", add(a, b))
 print("Subtraction:", subtract(a, b))
 print("Multiplication:", multiply(a, b))
 print("Division:", divide(a, b))
+print("Power:", power(a, b))
