@@ -15,3 +15,6 @@ def divide(a,b):
     else:
         return a/b
     
+def power(a, b):
+    return a ** b
+    
